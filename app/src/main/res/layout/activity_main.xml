@@ -51,12 +51,12 @@
 
     <Button
         android:id="@+id/button_calculate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_width="280dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
         android:text="Calcular"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editText_time" />
 
@@ -64,22 +64,22 @@
         android:id="@+id/button_clear"
         android:layout_width="102dp"
         android:layout_height="44dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:text="Limpiar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_calculate" />
 
     <TextView
         android:id="@+id/textView_result"
-        android:layout_width="231dp"
-        android:layout_height="103dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="408dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="4dp"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_clear" />
 </androidx.constraintlayout.widget.ConstraintLayout>
